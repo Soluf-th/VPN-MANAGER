@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    // ... rest of your TypeScript config
+    "plugins": [
+      {
+        "name": "vpn-manager"
+      }
+    ]
+  }
+}
