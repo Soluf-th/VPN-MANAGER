@@ -1,4 +1,5 @@
 import { ConnectionStatus } from '../types';
+import { SpeedInsights } from "@vercel/speed-insights/react"
 
 // In a real scenario, these would fetch from the Flask API (e.g., http://localhost:3000/connect)
 // We are simulating the network calls to provide a functional UI experience.
