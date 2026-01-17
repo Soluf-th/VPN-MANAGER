@@ -1,5 +1,6 @@
 
 import React, { useState, useEffect, useCallback, useRef } from 'react';
+import { SpeedInsights } from '@vercel/speed-insights/react';
 import { ConnectionStatus, LogEntry, TrafficPoint, VpnStats, Vulnerability, Certification } from './types';
 import { connectVpn, disconnectVpn } from './services/vpnService';
 import StatusBadge from './components/StatusBadge';
@@ -411,6 +412,7 @@ const App: React.FC = () => {
           </div>
         </div>
       </main>
+      <SpeedInsights />
     </div>
   );
 };
